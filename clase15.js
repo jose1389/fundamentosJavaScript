@@ -10,7 +10,7 @@ var jose ={
 console.log(`Al inicio ${jose.name} pesa ${jose.peso}kg`)
 
 const INCREMENTO_PESO = 0.2;
-const DIAZ_DEL_ANIO
+const DIAZ_DEL_ANIO = 365;
 
 const aumentaDePeso = persona => persona.peso += INCREMENTO_PESO;
 const pierdePeso = persona => persona.peso -= INCREMENTO_PESO;
